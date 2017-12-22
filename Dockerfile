@@ -8,6 +8,11 @@ RUN addgroup -S -g 10000 jenkins && \
     adduser -S -u 10000 -h /home/jenkins -G jenkins jenkins
 
 USER jenkins
+
+ENV USER_HOME_DIR /home/jenkins
+ENV MAVEN_CONFIG "$USER_HOME_DIR/.m2"
+RUN ./usr/local/bin/mvn-entrypoint.sh
+
 WORKDIR /home/jenkins
 
 CMD ["/bin/sh"]
