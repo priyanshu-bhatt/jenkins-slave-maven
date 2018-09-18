@@ -8,8 +8,8 @@ Jenkins Slave for Maven builds. Docker image based on Maven official image.
 
 -	[`latest` (*latest/Dockerfile*)](https://github.com/jnonino/jenkins-slave-maven/blob/master/latest/Dockerfile)
 -	[`alpine` (*alpine/Dockerfile*)](https://github.com/jnonino/jenkins-slave-maven/blob/master/alpine/Dockerfile)
--	[`3-jdk8` (*3-jdk8/Dockerfile*)](https://github.com/jnonino/jenkins-slave-maven/blob/master/3-jdk8/Dockerfile)
--	[`3-jdk8-alpine` (*3-jdk8-alpine/Dockerfile*)](https://github.com/jnonino/jenkins-slave-maven/blob/master/3-jdk8-alpine/Dockerfile)
+-	[`3-jdk-8` (*3-jdk-8/Dockerfile*)](https://github.com/jnonino/jenkins-slave-maven/blob/master/3-jdk-8/Dockerfile)
+-	[`3-jdk-8-alpine` (*3-jdk-8-alpine/Dockerfile*)](https://github.com/jnonino/jenkins-slave-maven/blob/master/3-jdk-8-alpine/Dockerfile)
 
 ## Tools Installed ##
 

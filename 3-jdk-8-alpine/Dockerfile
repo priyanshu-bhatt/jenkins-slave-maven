@@ -1,4 +1,4 @@
-FROM maven:3-jdk8-alpine
+FROM maven:3-jdk-8-alpine
 LABEL maintainer="Julian Nonino <noninojulian@outlook.com>"
 
 RUN apk add --no-cache git subversion mercurial wget curl unzip openssh ca-certificates procps bash && \
