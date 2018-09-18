@@ -14,7 +14,7 @@ Jenkins Slave for Maven builds. Docker image based on Maven official image.
 ## Tools Installed ##
 
 - Maven
-- Open Java JDK 8
+- Open Java JDK
 - Git
 - Subversion
 - Mercurial
