@@ -1,5 +1,5 @@
 FROM maven:3-jdk-8
-LABEL maintainer="Julian Nonino <noninojulian@outlook.com>"
+LABEL maintainer="Julian Nonino <noninojulian@gmail.com>"
 
 USER root
 

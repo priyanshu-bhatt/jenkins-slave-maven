@@ -29,7 +29,7 @@ Jenkins Slave for Maven builds. Docker image based on Maven official image.
 To add custom certificates and root CAs, create a new Dockerfile and import them with the following code.
 
 	FROM jnonino/jenkins-slave-maven
-	LABEL maintainer="Julian Nonino <noninojulian@outlook.com>"
+	LABEL maintainer="Julian Nonino <noninojulian@gmail.com>"
 
 	# Trust Root CA
 	COPY Root_CA.crt /tmp
