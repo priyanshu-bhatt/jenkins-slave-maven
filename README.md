@@ -6,10 +6,8 @@ Jenkins Slave for Maven builds. Docker image based on Maven official image.
 
 ## Docker Image Tags ##
 
--	[`latest` (*latest/Dockerfile*)](https://github.com/jnonino/jenkins-slave-maven/blob/master/latest/Dockerfile)
--	[`alpine` (*alpine/Dockerfile*)](https://github.com/jnonino/jenkins-slave-maven/blob/master/alpine/Dockerfile)
--	[`3-jdk-8` (*3-jdk-8/Dockerfile*)](https://github.com/jnonino/jenkins-slave-maven/blob/master/3-jdk-8/Dockerfile)
--	[`3-jdk-8-alpine` (*3-jdk-8-alpine/Dockerfile*)](https://github.com/jnonino/jenkins-slave-maven/blob/master/3-jdk-8-alpine/Dockerfile)
+-	[`latest` (*latest/Dockerfile*)](https://bitbucket.org/jnonino-devops-cloud/jenkins-slave-maven/src/master/latest/Dockerfile)
+-	[`alpine` (*alpine/Dockerfile*)](https://bitbucket.org/jnonino-devops-cloud/jenkins-slave-maven/src/master/alpine/Dockerfile)
 
 ## Tools Installed ##
 
