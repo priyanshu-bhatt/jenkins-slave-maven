@@ -1,4 +1,4 @@
-# Jenkins Slave Maven #
+# Jenkins Slave Maven [![Docker hub](https://img.shields.io/docker/pulls/jnonino/jenkins-slave-maven.svg)](https://hub.docker.com/r/jnonino/jenkins-slave-maven/)
 
 Jenkins Slave for Maven builds. Docker image based on Maven official image.
 
