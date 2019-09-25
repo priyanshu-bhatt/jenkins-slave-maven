@@ -1,9 +1,9 @@
 # Jenkins Slave Maven
 
-[![](https://img.shields.io/docker/pulls/jnonino/jenkins-slave-maven.svg)](https://hub.docker.com/r/jnonino/jenkins-slave-maven/)
-[![](hhttps://img.shields.io/docker/build/jnonino/jenkins-slave-maven)](https://hub.docker.com/r/jnonino/jenkins-slave-maven/)
-[![](https://img.shields.io/docker/automated/jnonino/jenkins-slave-maven)](https://hub.docker.com/r/jnonino/jenkins-slave-maven/)
-[![](https://img.shields.io/docker/stars/jnonino/jenkins-slave-maven)](https://hub.docker.com/r/jnonino/jenkins-slave-maven/)
+[![](https://img.shields.io/docker/pulls/cnservices/jenkins-slave-maven.svg)](https://hub.docker.com/r/cnservices/jenkins-slave-maven/)
+[![](hhttps://img.shields.io/docker/build/cnservices/jenkins-slave-maven)](https://hub.docker.com/r/cnservices/jenkins-slave-maven/)
+[![](https://img.shields.io/docker/automated/cnservices/jenkins-slave-maven)](https://hub.docker.com/r/cnservices/jenkins-slave-maven/)
+[![](https://img.shields.io/docker/stars/cnservices/jenkins-slave-maven)](https://hub.docker.com/r/cnservices/jenkins-slave-maven/)
 [![](https://img.shields.io/github/license/cn-cicd/jenkins-slave-maven)](https://github.com/cn-cicd/jenkins-slave-maven)
 [![](https://img.shields.io/github/issues/cn-cicd/jenkins-slave-maven)](https://github.com/cn-cicd/jenkins-slave-maven)
 [![](https://img.shields.io/github/issues-closed/cn-cicd/jenkins-slave-maven)](https://github.com/cn-cicd/jenkins-slave-maven)
@@ -29,7 +29,7 @@ Jenkins Slave for Maven builds. Docker image based on Maven official image.
 
 To add custom certificates and root CAs, create a new Dockerfile and import them with the following code.
 
-	FROM jnonino/jenkins-slave-maven
+	FROM cnservices/jenkins-slave-maven
 	LABEL maintainer="Julian Nonino <noninojulian@gmail.com>"
 
 	# Trust Root CA
