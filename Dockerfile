@@ -1,10 +1,6 @@
 FROM maven:3.8.4-openjdk-17
 LABEL maintainer="CN Services <noninojulian@gmail.com>"
 
-RUN apk add --no-cache git subversion mercurial wget curl unzip openssh ca-certificates procps bash && \
-    rm -rf /var/cache/apk/*
-    
-# Update the system
 RUN apt-get update -y && \
     apt-get install -y git subversion mercurial wget curl unzip build-essential ca-certificates && \
     apt-get clean && \
